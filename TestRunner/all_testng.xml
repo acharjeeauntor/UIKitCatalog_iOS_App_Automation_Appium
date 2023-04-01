@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.auntor.Util.Reporting"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/auntoracharja/Work/SQA/Automation/Appium/iOS-App-Automation-Test-Appium/TestRunner">
+        <classes>
+            <class name="org.auntor.TestCases.HomePageTest"/>
+        <class name="org.auntor.TestCases.AlertViewsTest"/>
+        </classes>
+    </test>
+</suite>
