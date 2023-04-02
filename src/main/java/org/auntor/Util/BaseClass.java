@@ -30,7 +30,6 @@ public class BaseClass{
     
     @BeforeClass
     public void automationEnvStart() throws IOException {
-        //startServer();
         if(config.getDeviceType().equals("Simulator")){
             startServer();
             capabilities();
