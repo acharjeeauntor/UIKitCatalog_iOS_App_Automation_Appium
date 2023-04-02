@@ -101,10 +101,10 @@ public class BaseClass{
     public static AppiumDriver bsCapabilities() throws IOException {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("deviceName","iPhone 11 Pro");
-        caps.setCapability("os_version","15.4");
-        caps.setCapability("Project","My App");
+        caps.setCapability("os_version","15.5");
+        caps.setCapability("Project","UiCatalog");
         caps.setCapability("build","1.0");
-        caps.setCapability("name","Run My APP Test Automation in BrowserStack");
+        caps.setCapability("name","Run UICatalog APP Test Automation in BrowserStack");
         caps.setCapability("app",config.getBSDIUSmartAppKey());
 
         driver = new AppiumDriver(new URL(URL),caps);
