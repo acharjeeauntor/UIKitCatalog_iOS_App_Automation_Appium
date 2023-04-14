@@ -11,6 +11,8 @@ Project Structure: Page object Model(POM)<br>
 Dependency Used:java-client,apache poi,extentreports,log4j,testng,selenium-java,etc<br>
 IDE: Intellij<br>
 
+## Project Architecture: <br>
+![Selenium_Appium_iOS_project_Arch](https://user-images.githubusercontent.com/38497405/232031057-0f20578b-d817-48c0-b379-e690a4d94652.png)
 
 #### Note: In this project i have used latest version of Appium(v2) & Java-Client(v8), Also Intregrate this project with BrowserStack & Jenkins via Docker Container. <br>
 
